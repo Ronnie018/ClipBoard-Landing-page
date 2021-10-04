@@ -94,7 +94,7 @@ I will give better names for my classes, become faster on solving problems, lear
 
 ## Author
 
-- Frontend Mentor - [@Ronnie018](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Ronnie018](https://www.frontendmentor.io/profile/Ronnie018)
 - Twitter - [@BrittoRonnie](https://www.twitter.com/BrittoRonnie)
 
 ## Acknowledgments
