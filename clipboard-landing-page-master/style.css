@@ -6,15 +6,6 @@
 @import url(./features-section.css);
 @import url(./footer.css);
 
-
-.attribution { font-size: 11px; text-align: center; display: none;}
-
-  .attribution a { color: hsl(228, 45%, 44%); }
-  
-  .attribution{
-    display: none;
-  }
-
   :root{
     --Strong-cyan: hsl(171, 66%, 44%);
     --Light-blue: hsl(233, 100%, 69%);
@@ -26,9 +17,10 @@
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(210, 10%, 33%);
+    outline: solid cyan 1px;
   }
   html{
-      font-size: 62.5%;
+      font-size: 70.5%;
   }
 
   img.background{
@@ -37,7 +29,7 @@
     z-index: -10;
   }
   p, a{
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       color: hsl(201, 11%, 66%);
   }
   a{
