@@ -15,13 +15,13 @@
 </head>
 <body>
   <picture>
-    <source media="(max-width: 640px)" srcset="./clipboard-landing-page-master/images/bg-header-mobile.png" type="image/">
-    <img src="./clipboard-landing-page-master/images/bg-header-desktop.png" alt="" class="background">
+    <source media="(max-width: 640px)" srcset="./clipboard-landing-page-master/images/bg-header-mobile.png" type="image/.png">
     <source srcset="./clipboard-landing-page-master/images/bg-header-desktop.png">
+    <img src="./clipboard-landing-page-master/images/bg-header-desktop.png" aria-hidden="true" class="background">
   </picture>
-  <div>
+  <main>
     <section class="first-page">
-      <a href="#"><img src="./clipboard-landing-page-master/images/logo.svg" alt="" class="logo top"></a>
+      <a href="#"><img src="./clipboard-landing-page-master/images/logo.svg" aria-hidden="true" class="logo top"></a>
       <h1>A history of everything you copy</h1>
       <p>
         Clipboard allows you to track and organize everything you
@@ -38,9 +38,9 @@
           devices. Our Mac and iOS apps will help you organize everything.
         </p>
       </section>
-      <section class="fifty">
+      <div class="fifty">
             <picture>
-              <img src="./clipboard-landing-page-master/images/image-computer.png" alt="" aria-hidden="true" class="computer">
+              <img src="./clipboard-landing-page-master/images/image-computer.png" alt="Apple iMac using clipboard" class="computer">
             </picture>
                 <div class="text">
                   <section>
@@ -56,8 +56,8 @@
                     <p>Retrieve any snippets from the first moment you started using the app.</p>
                   </section>
                 </div>
-      </section>
-    <section class="img-holder">
+              </div>
+    <div class="img-holder">
       <section class="center">
         <h2>Access Clipboard anywhere</h2>
         <p>
@@ -66,39 +66,39 @@
         </p>
       </section>
       <picture>
-          <img src="./clipboard-landing-page-master/images/image-devices.png" alt="" aria-hidden="true" class="devices">
+          <img src="./clipboard-landing-page-master/images/image-devices.png" alt="Apple devices using clipboard"  class="devices">
       </picture>
-    </section>
+    </div>
     <section class="center">
       <h2>Supercharge your workflow</h2>
       <p>We’ve got the tools to boost your productivity.</p>
     </section>
-    <section>
 
+    <section>
     <div class="features">
         <div>
-          <img src="./clipboard-landing-page-master/images/icon-blacklist.svg" alt="" aria-hidden="true">
+          <img src="./clipboard-landing-page-master/images/icon-blacklist.svg" aria-hidden="true">
           <h3>Create blacklists</h3>
           <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </div>
         <div>
-          <img src="./clipboard-landing-page-master/images/icon-text.svg" alt="" aria-hidden="true">
+          <img src="./clipboard-landing-page-master/images/icon-text.svg" aria-hidden="true">
           <h3>Plain text snippets</h3>
           <p>Remove unwanted formatting from copied text for a consistent look.</p>
         </div>
         <div>
-          <img src="./clipboard-landing-page-master/images/icon-preview.svg" alt="" aria-hidden="true">
+          <img src="./clipboard-landing-page-master/images/icon-preview.svg" aria-hidden="true">
           <h3>Sneak preview</h3>
           <p>Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
     </div>
 
       <div class="employees">
-        <img src="./clipboard-landing-page-master/images/logo-google.png" alt="" aria-hidden="true">
-        <img src="./clipboard-landing-page-master/images/logo-ibm.png" alt="" aria-hidden="true">
-        <img src="./clipboard-landing-page-master/images/logo-microsoft.png" alt="" aria-hidden="true">
-        <img src="./clipboard-landing-page-master/images/logo-hp.png" alt="" aria-hidden="">
-        <img src="./clipboard-landing-page-master/images/logo-vector-graphics.png" alt="" aria-hidden="true">
+        <img src="./clipboard-landing-page-master/images/logo-google.png" aria-hidden="true">
+        <img src="./clipboard-landing-page-master/images/logo-ibm.png" aria-hidden="true">
+        <img src="./clipboard-landing-page-master/images/logo-microsoft.png" aria-hidden="true">
+        <img src="./clipboard-landing-page-master/images/logo-hp.png" aria-hidden="true">
+        <img src="./clipboard-landing-page-master/images/logo-vector-graphics.png" aria-hidden="true">
       </div>
     </section>
     <section class="center">
@@ -115,7 +115,7 @@
 
 
     <footer>
-      <div class="logo-holder"><a href="#"><img src="./clipboard-landing-page-master/images/logo.svg" alt="" class="logo bottom"></a></div>
+      <div class="logo-holder"><a href="#"><img src="./clipboard-landing-page-master/images/logo.svg" class="logo bottom"></a></div>
 
       <nav>
         <a href="#">FAQs</a>
@@ -126,18 +126,11 @@
       </nav>
 
       <div class="social">
-        <a href="#"><img src="./clipboard-landing-page-master/images/icon-facebook.svg" alt="" aria-hidden="true"></a>
-        <a href="#"><img src="./clipboard-landing-page-master/images/icon-twitter.svg" alt="" aria-hidden="true"></a>
-        <a href="#"><img src="./clipboard-landing-page-master/images/icon-instagram.svg" alt="" aria-hidden="true"></a>
+        <a href="#"><img src="./clipboard-landing-page-master/images/icon-facebook.svg" aria-hidden="true"></a>
+        <a href="#"><img src="./clipboard-landing-page-master/images/icon-twitter.svg" aria-hidden="true"></a>
+        <a href="#"><img src="./clipboard-landing-page-master/images/icon-instagram.svg" aria-hidden="true"></a>
       </div>
     </footer>
-  </div>
-  
-  <footer class="attribution">
-    <p>
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  </main>
 </body>
 </html>
