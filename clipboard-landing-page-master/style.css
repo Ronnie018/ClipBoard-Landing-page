@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url(./outlines.css);
+@import url(./first-page.css);
+@import url(./computer-section.css);
+@import url(./device-section.css);
+@import url(./features-section.css);
+@import url(./footer.css);
+
+
+.attribution { font-size: 11px; text-align: center; display: none;}
+
+  .attribution a { color: hsl(228, 45%, 44%); }
+  
+  .attribution{
+    display: none;
+  }
+
+  :root{
+    --Strong-cyan: hsl(171, 66%, 44%);
+    --Light-blue: hsl(233, 100%, 69%);
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 10%, 33%);
+  }
+  html{
+      font-size: 62.5%;
+  }
+
+  img.background{
+    position: absolute;
+    max-width: 100%;
+    z-index: -10;
+  }
+  p, a{
+      font-size: 1.4rem;
+      color: hsl(201, 11%, 66%);
+  }
+  a{
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+  }
+  a:hover:not(a.download){
+    color: hsl(171, 66%, 44%);
+  }
+  h1{
+      font-size: 3.6rem;
+  }
+  h2{
+      font-size: 2.5rem;
+      margin: 20px;
+      font-weight: 700;
+  }
+  h3{
+      font-size: 1.9em;
+  }
+  img{
+    max-width: 100%;
+  }
+  .center{
+    padding: 0 20px;
+  }

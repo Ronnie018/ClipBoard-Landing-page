@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+.first-page{
+    text-align: center;
+    max-width: 600px;
+    margin: auto auto 120px auto;
+}
+.first-page .logo{
+    margin-top: 80px;
+    max-width: 100px;
+}
+
+.first-page h1{
+    margin-top: 40px;
+}
+.first-page p{
+    margin: 20px auto 50px auto;
+    padding: 20px;
+}
+
+a.download{
+    color: white;
+    padding: 10px 12px;
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 45px;
+    box-shadow: 0px 5px 12.5px rgba(80, 80, 80, 0.274);
+    max-width: max-content;
+    margin: 30px 5px;
+  }
+
+  .download.ios{
+    background-color: var(--Strong-cyan);
+  }
+
+  .download.mac{
+    background-color: var(--Light-blue);
+  }
+
+  .download-bottom{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .download.ios:hover{
+    background-color: hsla(171, 66%, 44%, 0.85);
+    mix-blend-mode: luminosity;
+  }
+  .download.mac:hover{
+    background-color: hsla(233, 100%, 69%, 0.85);
+    mix-blend-mode: luminosity;
+  }

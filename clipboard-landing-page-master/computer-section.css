@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.center{
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+}
+.fifty{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(32rem, 1fr));
+    justify-content: center;
+    align-items: stretch;
+}
+img.computer{
+    max-width: 100%;
+    margin: auto;
+}
+.text{
+    max-width: 420px;
+    margin: auto;
+}
+@media(max-width:639px){
+    .text{
+    text-align: center;
+    max-width: 600px;
+    margin: 2.0rem;
+}
+}
+.text section{
+    margin-bottom: 50px;
+}

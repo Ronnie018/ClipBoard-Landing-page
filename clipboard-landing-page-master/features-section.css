@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+    gap: 30px;
+    margin: auto 55px;
+}
+.features div{
+    text-align: center;
+}
+.features div h3{
+    margin: 20px;
+}
+
+/*employees*/
+
+
+.employees{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24em, 1fr));
+    margin: 80px auto;
+    gap: 30px;
+    justify-content: space-between;
+}
+.employees img{
+    margin: auto;
+}
