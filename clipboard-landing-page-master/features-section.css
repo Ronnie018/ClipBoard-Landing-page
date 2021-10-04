@@ -2,7 +2,7 @@
 
 .features{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     gap: 30px;
     margin: auto 55px;
 }
