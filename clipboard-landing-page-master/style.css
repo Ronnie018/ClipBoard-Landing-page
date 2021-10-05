@@ -17,7 +17,6 @@
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
     color: hsl(210, 10%, 33%);
-    outline: solid cyan 1px;
   }
   html{
       font-size: 70.5%;
